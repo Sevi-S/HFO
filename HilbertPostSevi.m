@@ -44,7 +44,7 @@ Mario3_Filtered_8min_HilbertFilter = table([0],[0],[0],[0],[0],'VariableNames',{
 j = 1000000;
 i = 1;
 
-while i <= 15612
+while i <= 15612 %Length of vector using Length()not working
     
     j = TableMario03_Filter_8min_ZerosCrossing{i, 3};
     
