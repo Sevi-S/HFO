@@ -3,24 +3,26 @@
 ### 0. Start with raw EEG data
 
 ### 1. Filtering
-   - Bipolar montages made with EEGLAB in matlab
-   - Bandpass Filtering - FIRFILTFILT.m
+    - Bipolar montages made with EEGLAB in matlab
+    - Bandpass Filtering - FIRFILTFILT.m
 
 ### 2. Sieving
-   - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
-   - delete full 0 rows - {filename(~filename.ChNum,:) = []} - run from matlab command line
-   - zero crossing numbers - ZeroCrossing.m
-   - Hilbert transform Hilbert.m
-   -  FFT - FFT.m
+    - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
+    - delete full 0 rows - {filename(~filename.ChNum,:) = []} - run from matlab command line
+    - zero crossing numbers - ZeroCrossing.m
+    - Hilbert transform Hilbert.m
+    -  FFT - FFT.m
 
 ### 3. Feature extraction
-   - Spectral Entropy - SpectralEntropy.m
-   - Subband power ratio - SubbandPowerRatio.m
-   - Peak to Notch ratio - FrequencyWithMaxPn.m
+    - Spectral Entropy - SpectralEntropy.m
+    - Subband power ratio - SubbandPowerRatio.m
+    - Peak to Notch ratio - FrequencyWithMaxPn.m
 
 ### 4. Clustering and Graphing
-   - GMM Clustering and Elbow to find k value - GMMClusteringElbow.m
+    - GMM Clustering and Elbow to find k value - GMMClusteringElbow.m
 
+### 5. Analysis
+     - graphs 
 
 All matlab files are in foler named "Final".
 All experimental and trial code can be found in "testCode".
