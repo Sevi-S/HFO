@@ -3,27 +3,24 @@
 
 1. Raw data
 
-### Filtering
-2. Bipolar montages
+### 1.Filtering
    - Bipolar montages made with EEGLAB in matlab
    - Bandpass Filtering - not in github
 
-### "Sieving"
-3. Staba 
+### 2. Sieving
    - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
    - delete full 0 rows - {filename(~filename.ChNum,:) = []}
    - zero crossing numbers - zeroCrossingPostStaba.m
    - Hilbert transform *need to upload code*
    -  FFT - FFT.m
 
-### Feature extraction
-4. 3 different features
+### 3. Feature extraction
    - Spectral Entropy - SpectralEntropy.m
    - Subband power ratio - SubbandPowerRatio.m
    - Peak to Notch ratio - FrequencyWithMaxPn.m
 
-### Clustering and Graphing
-5. Gmm
+### 4. Clustering and Graphing
+   - Gmm/k means
    - *upload code*
 
 
