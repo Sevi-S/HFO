@@ -23,4 +23,6 @@
 
 
 all matlab files are in foler named "Final"
-all experimental and trial code can be found in "testCode"
+all experimental and trial code can be found in "testCode".
+Procdure was done the order of this list
+
