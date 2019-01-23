@@ -11,7 +11,6 @@ row=Mario4_GMM_Table.ChNum(i);
 center_peak=round((Mario4_GMM_Table.startsegment(i)+Mario4_GMM_Table.endsegment(i))/2);
 colstar=center_peak-208;
 colend=center_peak+208;
-  
  
 L=length(colstar:colend);
 
