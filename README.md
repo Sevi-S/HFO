@@ -10,7 +10,7 @@
    - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
    - delete full 0 rows - {filename(~filename.ChNum,:) = []} - run from matlab command line
    - zero crossing numbers - ZeroCrossing.m
-   - Hilbert transform *need to upload code*
+   - Hilbert transform Hilbert.m
    -  FFT - FFT.m
 
 ### 3. Feature extraction
