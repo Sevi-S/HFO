@@ -4,11 +4,11 @@
 
 ### 1. Filtering
    - Bipolar montages made with EEGLAB in matlab
-   - Bandpass Filtering - *need to upload code*
+   - Bandpass Filtering - FIRFILTFILT.m
 
 ### 2. Sieving
    - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
-   - delete full 0 rows - {filename(~filename.ChNum,:) = []}
+   - delete full 0 rows - {filename(~filename.ChNum,:) = []} - run from matlab command line
    - zero crossing numbers - ZeroCrossing.m
    - Hilbert transform *need to upload code*
    -  FFT - FFT.m
