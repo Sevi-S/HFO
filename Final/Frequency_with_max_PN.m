@@ -68,24 +68,6 @@ else
 end
 
 
-% h1 = subplot(2,1,1);
-% h2 = subplot(2,1,2);
-% plot(h1,f,ps);
-% axes(h1)
-% line([40 40],get(h1,'YLim'),'Color',[1 0 0]);
-% line([100 100],get(h1,'YLim'),'Color',[1 0 0]);
-% title(h1,'Raw');
-% plot(h2,f,ps_denoised);
-% axes(h2)
-% line([80 80],get(h2,'YLim'),'Color',[1 0 0]);
-% line([500 500],get(h2,'YLim'),'Color',[1 0 0]);
-% 
-% title(h2,'denoised');
-
-
-
-
-
 if isempty(throughs)
     fprintf('No minimum found  row : %d .\n', i)
      
