@@ -1,7 +1,5 @@
 %% Subband_power_ratio
 
- 
-
 for ii= 1:length(Mario4_GMM_Table.ChNum)
     
      
