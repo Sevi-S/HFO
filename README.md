@@ -22,7 +22,7 @@
    - GMM Clustering and Elbow to find k value - GMMClusteringElbow.m
 
 
-all matlab files are in foler named "Final"
-all experimental and trial code can be found in "testCode".
-Procdure was done the order of this list
+All matlab files are in foler named "Final".
+All experimental and trial code can be found in "testCode".
+Procdure was done the order of this list. Further information about methods can be found in the comments of each file or within the methods section of our paper.
 
