@@ -1,5 +1,4 @@
-# HFO
-## HFO Project final product methods and code
+# HFO Project final product methods and code
 
 ### 0. Start with raw EEG data
 
