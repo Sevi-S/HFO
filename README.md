@@ -18,7 +18,7 @@ HFO Project code
 
 4 Hilbert transform
 
-4.1 FFT - File FFt
+4.1 FFT - FFT
 
 
 5 Spectral Entropy - SpectralEntropy
