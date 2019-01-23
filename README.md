@@ -1,9 +1,9 @@
 # HFO
 ## HFO Project final product methods and code
 
-1. Raw data
+### 0. Start with raw EEG data
 
-### 1.Filtering
+### 1. Filtering
    - Bipolar montages made with EEGLAB in matlab
    - Bandpass Filtering - not in github
 
