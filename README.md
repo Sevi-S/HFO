@@ -1,10 +1,9 @@
 # HFO
 ## HFO Project final product methods and code
 
-
-### Filtering
 1. Raw data
 
+### Filtering
 2. Bipolar montages
    - Bipolar montages made with EEGLAB in matlab
    - Bandpass Filtering - not in github
@@ -14,20 +13,17 @@
    - StabaMethod - StabaMethod.m, getHfo.m (need getHfo function file, in same directory)
    - delete full 0 rows - {filename(~filename.ChNum,:) = []}
    - zero crossing numbers - zeroCrossingPostStaba.m
-
-
-4. Hilbert transform
    - Hilbert transform *need to upload code*
    -  FFT - FFT.m
 
 ### Feature extraction
-5. 3 different features
+4. 3 different features
    - Spectral Entropy - SpectralEntropy.m
    - Subband power ratio - SubbandPowerRatio.m
    - Peak to Notch ratio - FrequencyWithMaxPn.m
 
 ### Clustering and Graphing
-6. Gmm
+5. Gmm
    - *upload code*
 
 
