@@ -2,7 +2,7 @@
 %% This code has been written by Louis Weyland 11/01/2019
 %% Load the files and the interesting information 
 
-EEG= pop_loadset('Mario15_seizure4_BipolarMOntage_Combined.set');
+EEG= pop_loadset('Mario15_seizure3_BipolarMOntage_Combined.set');
 data= double(EEG.data);
 time= EEG.times;
 nCH = EEG.nbchan;
@@ -17,13 +17,13 @@ d1 = designfilt('bandpassfir','FilterOrder',64,'CutoffFrequency1',80,'CutoffFreq
 
 for i=1:nCH
    
-Mario4filtered(i,:)= filtfilt(d1,data(i,:));
+Mario3filtered(i,:)= filtfilt(d1,data(i,:));
  
 end
 %% Cut the filtered data to 8 min before seizure
 
-Mario4filtered_8min=Mario4filtered(:,1:1000000);
-Mario4_Filtered_Chname=extractfield(EEG.chanlocs,'labels')';
+Mario3filtered_8min=Mario3filtered(:,1:1000000);
+Mario3_Filtered_Chname=extractfield(EEG.chanlocs,'labels')';
 
 %% Cut the raw data to 8 min before seizure
 
