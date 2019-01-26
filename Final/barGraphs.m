@@ -1,4 +1,4 @@
-dataT = Mario3_GMM_Table;
+dataT = Mario3_GMM_Table;% data
 numGraphs = max(dataT.Cluster);
 
 data = table2array(dataT);
