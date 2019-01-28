@@ -22,7 +22,8 @@
     - GMM Clustering and Elbow to find k value - GMMClusteringElbow.m
 
 ### 5. Analysis
-     - graphs 
+     - Some bar graphs were generated in with BarGraphs.m
+     - Rest were done afterward in excel
 
 All matlab files are in foler named "Final".
 All experimental and trial code can be found in "testCode".
